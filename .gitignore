@@ -1,0 +1,18 @@
+# python
+*.pyc
+
+# vim
+*.swp
+
+# OSX
+.DS_Store
+
+# Other
+*.pdf
+*.doc
+*.docx
+*.jpg
+*.gif
+*.png
+*.xls
+*.xlsx
