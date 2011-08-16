@@ -5,7 +5,7 @@ import re
 
 class CustomExample(PyCherryPick):
     def __init__(self):
-        CherryPick.__init__(self)
+        PyCherryPick.__init__(self)
 
 
     def scrape(self):
