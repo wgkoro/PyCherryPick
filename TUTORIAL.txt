@@ -1,14 +1,14 @@
 Requirement:
-  Python 2.x
-  BeautifulSoup.py (bundled)
+・Python 2.x
+・BeautifulSoup.py (bundled)
 
 Basic usage:
 You can use this script via command-line.
-  $ python pycherrypick.py [target page's URL]
+$ python pycherrypick.py [target page's URL]
 
 Example:
-  $ cd PyCherryPick/python
-  $ python pycherrypick.py http://foo.bar.com/
+$ cd PyCherryPick/python
+$ python pycherrypick.py http://foo.bar.com/
 This command collects links on the page http://foo.bar.com/, and download jpg files to PyCherryPick/python/downloads.
 
 Advanced Option:
@@ -27,8 +27,8 @@ There are some options.
                                         If both of -r and -t options are defined, -t will be ignored.
 
 Example:
-  $ cd PyCherryPick/python
-  $ python pycherrypick.py http://foo.bar.com/bar.html -t png -d /User/foo/downloads
+$ cd PyCherryPick/python
+$ python pycherrypick.py http://foo.bar.com/bar.html -t png -d /User/foo/downloads
 PNG files will be downloaded to /User/foo/downloads
 If you want to download jpg, png, gif, pdf files, set -t option like "jpg,png,gif,pdf"
 
